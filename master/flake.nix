@@ -11,6 +11,7 @@
   inputs.src-camelize-master.ref   = "refs/heads/master";
   inputs.src-camelize-master.owner = "kixixixixi";
   inputs.src-camelize-master.repo  = "camelize";
+  inputs.src-camelize-master.dir   = "";
   inputs.src-camelize-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
